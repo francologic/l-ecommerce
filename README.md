@@ -1,6 +1,19 @@
 # FakeStore app built with React-Native
 
+Built on
+
+```
+nodejs16
+openjdk11
+```
 ## Tutorial
+
+First, setup the dependencies
+
+```
+npm i
+```
+### You may want:
 
 To run JEST
 ```
@@ -19,5 +32,5 @@ npx react-native run-android
 
 To run on iOS
 ```
-npx react-native run-android
+npx react-native run-ios
 ```
