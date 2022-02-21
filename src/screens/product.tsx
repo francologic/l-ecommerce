@@ -23,7 +23,7 @@ const ProductScreen: React.FC<any> = ({route, navigation}) => {
   const addToCart = (product: Product) => {
     ShoppingCart.addProduct(product);
     navigation.navigate('Cart');
-  }
+  };
   const topNavBar = () => (
     <View style={styles.topNavBar}>
       <View style={[styles.navbarCel, styles.backButtonCell]}>
